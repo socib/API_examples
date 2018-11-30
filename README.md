@@ -19,11 +19,15 @@ The new SOCIB API is addressed to two different types of users: the IT (software
 
 A success story is the development of the [SOCIB Data Catalog](http://apps.socib.es/data-catalog/) web that fully relies on the capacity of this API, that will be published on the new SOCIB website.
 
+# How to interact with SOCIB API?
+Go to the [API home page](http://api.socib.es/home/) and request an API key (bottom of the page)
+
+
 # API examples (python notebooks)
 
 * [Quick start](tips/quick_start.ipynb) - SOCIB API main concepts
 
-* [SOCIB data-sources](data_sources):
+* [SOCIB data-sources](data_sources): SOCIB deployments metadata & data
 
 	- What is a data-source? ([Example 1](data_sources/what_is_a_data_source.ipynb))
 
@@ -35,7 +39,7 @@ A success story is the development of the [SOCIB Data Catalog](http://apps.socib
 
 	- Resampling a data-source's data: ([Example 5](data_sources/resampling_a_data_sources_data.ipynb))
  
-* [SOCIB data-platforms](data_platforms):
+* [SOCIB data-platforms](data_platforms): SOCIB platforms metadata & data
 	- What is a data-platform? ([Example 6](data_platforms/what_is_a_data_platform.ipynb))
 
 	- Searching for certain data-platform ([Example 7](data_platforms/searching_for_certain_data_platforms.ipynb)) by platform type.
@@ -44,7 +48,7 @@ A success story is the development of the [SOCIB Data Catalog](http://apps.socib
 
 	- Requesting a data-plaform's latest files ([Example 9](data_platforms/requesting_a_data_platforms_latest_files.ipynb))
 
-* [SOCIB data-products](data_products):
+* [SOCIB data-products](data_products): SOCIB products metadata & data
 	- What is a data-product? ([Example 10](data_products/what_is_a_data_product.ipynb))
 
 	- Searching for certain data-products ([Example 11](data_products/searching_for_certain_data_products.ipynb)) by coverage_bounding_box, type, status, instrument, product, initial_time, end_time, processing levels etc.
@@ -52,8 +56,11 @@ A success story is the development of the [SOCIB Data Catalog](http://apps.socib
 	- Requesting a data-product's files ([Example 12](data_products/requesting_a_data_product_files.ipynb))
 
 
-# How to get an API key to interact with SOB API?
-Go to the [API home page](http://api.socib.es/home/) and request an API key (bottom of the page)
+# Quick hands-on
+* Getting SOCIB platforms full-list - by platform type and status ([hands on 1](hands_on/hands_on_1.ipynb))
+* Getting SOCIB platforms latest data - download ([hands on 2](hands_on/hands_on_2.ipynb))
+* Getting SOCIB platforms historical data - download ([hands on 3](hands_on/hands_on_3.ipynb))
+
 
 # Legacy
 This material has been developed by [Paz Rotllan](https://github.com/pazrg). Email: protllan@socib.es
