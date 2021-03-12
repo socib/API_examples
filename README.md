@@ -1,5 +1,5 @@
 
-<img src="assets/bg-masthead3.jpg" alt="SOCIB">
+<img src="assets/bg-masthead3.jpg" alt="SOCIB"/>
 
 # What is SOCIB API?
 
