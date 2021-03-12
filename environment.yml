@@ -1,0 +1,11 @@
+name: SOCIB-Data-API
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - IPython
+    - requests
+    - json2html
