@@ -1,5 +1,5 @@
 
-<img src="assets/bg-masthead3.jpg" alt="SOCIB"/>
+![](assets/bg-masthead3.jpg.png)
 
 # What is SOCIB API?
 
