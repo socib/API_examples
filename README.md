@@ -29,12 +29,12 @@ Go to the [API home page](http://api.socib.es/home/) and request an API key (for
 
 # API examples (python notebooks)
 
-* Data streams ([Static](01-Getting-started.ipynb) | [Live](https://gesis.mybinder.org/binder/v2/gh/pazrg/SOCIB_API/ca0639283248e34ae7c46741872dbf5e401ddbaa?filepath=01-Getting-started.ipynb)):
+* Data streams ([Static](01-Getting-started.ipynb) | [Live](https://mybinder.org/v2/gh/socib/API_examples/c24841beefcfbacdb1d4c572d3b2a406c183e9b0?filepath=01-Getting-started.ipynb)):
     - *Origin*: Platform-types and instruments-types managed by SOCIB Observing System.
 	- *Content*: standard variables managed by SOCIB Observing System
 	- *Representations*: data-modes, data-levels and features
 
-* Data entities ([Static](02-Hands-on-data.ipynb) | [Live](https://gesis.mybinder.org/binder/v2/gh/pazrg/SOCIB_API/ca0639283248e34ae7c46741872dbf5e401ddbaa?filepath=02-Hands-on-data.ipynb)):
+* Data entities ([Static](02-Hands-on-data.ipynb) | [Live](https://mybinder.org/v2/gh/socib/API_examples/c24841beefcfbacdb1d4c572d3b2a406c183e9b0?filepath=02-Hands-on-data.ipynb)):
 	- *Discovery*: find data produced in a given area, time range, containing a certain variable and involving a given instrument or/and platform type.
 	- *Download*: download data from the above discovery results.
 
