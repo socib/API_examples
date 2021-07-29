@@ -27,7 +27,7 @@ SOCIB API is addressed to two different types of users: the IT (software develop
 Go to the [API home page](http://api.socib.es/home/) and request an API key (form at the bottom of the page) to be able to discover and retrieve SOCIB data by means of the API.
 
 
-# API examples (python notebooks)
+# API examples (Python notebooks)
 
 * Data streams ([Static](01-Getting-started.ipynb) | [Live](https://mybinder.org/v2/gh/socib/API_examples/c24841beefcfbacdb1d4c572d3b2a406c183e9b0?filepath=01-Getting-started.ipynb)):
     - *Origin*: Platform-types and instruments-types managed by SOCIB Observing System.
