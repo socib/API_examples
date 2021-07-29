@@ -9,23 +9,24 @@ def scbRequestHandler(query,headers):
     buffer, url , i = [], query, 1
     request = requests.get(url, headers=headers)
     response = json.loads(request.text)
-    if isinstance(response, dict) == False:
-        buffer = response
-    elif isinstance(response, dict) and response['next'] == None :
-        buffer = response['results']
+    if isinstance(response, dict):
+        if response['next'] == None:
+            buffer = response['results']
+        else:
+            npages = math.ceil(response['count']/len(response['results']))
+            while response['next'] is not None:
+                i = i + 1
+                try:
+                    request = requests.get(url, headers=headers)
+                    response = json.loads(request.text)
+                    url = response['next']
+                    buffer = buffer + response['results']
+                except Exception as e:
+                    print('--- Error resolving '+url)
+                    if i<npages:
+                        url = response['next'].replace('page='%s,'page='%s)%(str(i),str(i+1))
     else:
-        npages = math.ceil(response['count']/len(response['results']))
-        while response['next'] is not None:
-            i = i + 1
-            buffer = buffer + response['results']
-            try:
-                request = requests.get(url, headers=headers)
-                response = json.loads(request.text)
-                url = response['next']
-            except Exception as e:
-                print('--- Error resolving '+url)
-                if i<npages:
-                    url = response['next'].replace('page='%s,'page='%s)%(str(i),str(i+1))
+        buffer = response
     return buffer
 
 
