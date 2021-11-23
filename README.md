@@ -3,7 +3,7 @@
 
 # What is SOCIB API?
 
-An API (Application Programming Interface) is basically a programmatic tool that is used to interact with a system; in this case, the Balearic Islands Coastal Ocean Observing System (SOCIB). In other words, [SOCIB API](http://api.socib.es/) offers the possibility of discovering SOCIB data catalog and retrieving the data it contains. A success story is the development of the [SOCIB Data Catalog](http://apps.socib.es/data-catalog/) web that fully relies on the capacity of this API.
+An API (Application Programming Interface) is basically a programmatic tool that is used to interact with a system; in this case, the Balearic Islands Coastal Ocean Observing System (SOCIB). In other words, [SOCIB API](http://api.socib.es/) offers the possibility of discovering the <a href="https://socib.es/data/data-repository">SOCIB data repository</a> and retrieving the data it contains. A success story is the development of the [SOCIB Data Catalog](http://apps.socib.es/data-catalog/) web that fully relies on the capacity of this API.
 
 This API is a REST API, which means that the requests are issued with an usual HTTP client (available in any programming language) and on the notebooks in this repository users will find useful code snippets in python for doing so.
 
