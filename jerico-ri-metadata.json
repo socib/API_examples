@@ -1,20 +1,20 @@
-{
-    "_class": "Software",
-    "abstract": "Jupyter notebooks illustrating how to use SOCIB Data API for Data Discovery.",
-    "author": {
-        "_class": "Organization",
-        "alias": "https://edmo.seadatanet.org/report/3410"
-    },
-    "contributor": [
-        {
-            "_class": "Person",
-            "name": "Paz Rotllan Garcia <protllan@socib.es>"
-        },
-        {
-            "_class": "Person",
-            "name": "Charles Troupin <charles.troupin@gmail.com>"
-        },
-    ],
-    "description": "SOCIB Data API is addressed to two different types of users: the IT (software developer) user and the scientists. IT experts will find the use of the API almost trivial. Scientists with no previous experience on API usage, will need some training. The present set of Jupyter notebooks are to be used to initiate potential users on SOCIB Data API usage.",
-    "keywords": ["python","notebook","jupyter","api","julia","data-discovery","data-download","binder","socib"],
+
+	"_class": "Software",
+	"abstract": "Jupyter notebooks illustrating how to use SOCIB Data API for Data Discovery.",
+	"author": {
+		"_class": "Organization",
+		"alias": "https://edmo.seadatanet.org/report/3410"
+	},
+	"contributor": [{
+			"_class": "Person",
+			"name": "Paz Rotllan Garcia <protllan@socib.es>"
+		},
+		{
+			"_class": "Person",
+			"name": "Charles Troupin <charles.troupin@gmail.com>"
+		}$,$
+	],
+	"description": "SOCIB Data API is addressed to two different types of users: the IT (software developer) user and the scientists. IT experts will find the use of the API almost trivial. Scientists with no previous experience on API usage, will need some training. The present set of Jupyter notebooks are to be used to initiate potential users on SOCIB Data API usage.",
+	"keywords": ["python", "notebook", "jupyter", "api", "julia", "data-discovery", "data-download", "binder", "socib"]$,$
 }
+
